@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account Settings</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <div class="settings-wrapper">
+    <aside class="sidebar">
+      <ul>
+        <li><i class="fas fa-chart-line"></i> Dashboard</li>
+        <li><i class="fas fa-receipt"></i> Order History</li>
+        <li><i class="fas fa-shipping-fast"></i> Track Order</li>
+        <li><i class="fas fa-shopping-cart"></i> Shopping Cart</li>
+        <li><i class="fas fa-heart"></i> Wishlist</li>
+        <li><i class="fas fa-clone"></i> Compare</li>
+        <li><i class="fas fa-map-marker-alt"></i> Cards & Address</li>
+        <li><i class="fas fa-history"></i> Browsing History</li>
+        <li class="active"><i class="fas fa-cog"></i> Setting</li>
+        <li><i class="fas fa-sign-out-alt"></i> Logout</li>
+      </ul>
+    </aside>
+
+    <main class="settings-content">
+      <section class="account-section">
+        <h3>Account Setting</h3>
+        <div class="account-grid">
+          <div class="profile-pic">
+            <img src="./images/Avatar.png" alt="Profile">
+          </div>
+          <div class="input-group">
+            <label>Display name</label>
+            <input type="text" value="Kevin">
+          </div>
+          <div class="input-group">
+            <label>Username</label>
+            <input type="text" value="Kevin">
+          </div>
+          <div class="input-group">
+            <label>Full Name</label>
+            <input type="text" value="Kevin Gilbert">
+          </div>
+          <div class="input-group">
+            <label>Email</label>
+            <input type="email" value="KevinGilbert@gmail.com">
+          </div>
+          <div class="input-group">
+            <label>Secondary Email</label>
+            <input type="email" value="kevin12345@gmail.com">
+          </div>
+          <div class="input-group">
+            <label>Phone Number</label>
+            <input type="tel" value="+1-202-555-0118">
+          </div>
+          <div class="input-group">
+            <label>Country/Region</label>
+            <select>
+              <option>Bangladesh</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <label>State</label>
+            <select><option>Dhaka</option></select>
+          </div>
+          <div class="input-group">
+            <label>Zip Code</label>
+            <input type="text" value="1207">
+          </div>
+        </div>
+        <button class="save-btn">SAVE CHANGES</button>
+      </section>
+
+      <section class="address-section">
+        <div class="address-box">
+          <h4>Billing Address</h4>
+          <div class="address-grid">
+            <div class="input-group"><label>First Name</label><input type="text" value="Kevin"></div>
+            <div class="input-group"><label>Last Name</label><input type="text" value="Gilbert"></div>
+            <div class="input-group"><label>Company Name (Optional)</label><input type="text"></div>
+            <div class="input-group full"><label>Address</label><input type="text" value="Road No. 13/A, House no. 132/C, Flat No. 5D"></div>
+            <div class="input-group"><label>Country</label><select><option>Bangladesh</option></select></div>
+            <div class="input-group"><label>Region/State</label><select><option>Select...</option></select></div>
+            <div class="input-group"><label>City</label><select><option>Dhaka</option></select></div>
+            <div class="input-group"><label>Zip Code</label><input type="text" value="1207"></div>
+            <div class="input-group"><label>Email</label><input type="email" value="kevin12345@gmail.com"></div>
+            <div class="input-group"><label>Phone Number</label><input type="text" value="+1-202-555-0118"></div>
+          </div>
+          <button class="save-btn">SAVE CHANGES</button>
+        </div>
+
+        <div class="address-box">
+          <h4>Shipping Address</h4>
+          <div class="address-grid">
+            <div class="input-group"><label>First Name</label><input type="text" value="Kevin"></div>
+            <div class="input-group"><label>Last Name</label><input type="text" value="Gilbert"></div>
+            <div class="input-group"><label>Company Name (Optional)</label><input type="text"></div>
+            <div class="input-group full"><label>Address</label><input type="text" value="Road No. 13/A, House no. 132/C, Flat No. 5D"></div>
+            <div class="input-group"><label>Country</label><select><option>Bangladesh</option></select></div>
+            <div class="input-group"><label>Region/State</label><select><option>Select...</option></select></div>
+            <div class="input-group"><label>City</label><select><option>Dhaka</option></select></div>
+            <div class="input-group"><label>Zip Code</label><input type="text" value="1207"></div>
+            <div class="input-group"><label>Email</label><input type="email" value="kevin12345@gmail.com"></div>
+            <div class="input-group"><label>Phone Number</label><input type="text" value="+1-202-555-0118"></div>
+          </div>
+          <button class="save-btn">SAVE CHANGES</button>
+        </div>
+      </section>
+
+      <section class="password-section">
+        <h4>Change Password</h4>
+        <div class="password-grid">
+          <div class="input-group"><label>Current Password</label><input type="password"><i class="fas fa-eye"></i></div>
+          <div class="input-group"><label>New Password</label><input type="password"><i class="fas fa-eye"></i></div>
+          <div class="input-group"><label>Confirm Password</label><input type="password"><i class="fas fa-eye"></i></div>
+        </div>
+        <button class="save-btn orange">CHANGE PASSWORD</button>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
